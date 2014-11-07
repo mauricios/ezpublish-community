@@ -9,6 +9,10 @@
 
 use eZ\Bundle\EzPublishCoreBundle\HttpCache;
 
+/**
+ * Class EzPublishCache
+ * @deprecated in 5.4, cache extensibility is now possible via HTTP_CACHE_CLASS & CUSTOM_CLASSLOADER_FILE env variables
+ */
 class EzPublishCache extends HttpCache
 {
 }
